@@ -1,9 +1,12 @@
+
+
 body{
     margin:0%;
     font-size:18px;
     font-weight:400%;
     line-height:1.5em;
-    color: #212529 ;   
+    color: #212529 ;
+    background-color:#DBCEE3;   
 }
 
 img{
@@ -41,23 +44,37 @@ width:  1180px;
 columns: 3;
 }
 .html{
-
+    border: 3px solid #007055;
+    break-inside: avoid;
+    border-radius: 20px ;
+    
 }
 .css{
-
+    border: 3px solid #007055;
+    break-inside: avoid;
+    border-radius: 20px ;
 }
 .js{
-
+    border: 3px solid #007055;
+    break-inside: avoid;
+    border-radius: 20px ;
 }
 .github{
-
+    border: 3px solid #007055;
+    break-inside: avoid;
+    border-radius: 20px ;
 }
 .ubuntu{
-
+    border: 3px solid #007055;
+    break-inside: avoid;
+    border-radius: 20px ;
 }
 footer{
     text-align: center;
     font-size: 0.7;
+    border: 3px solid #92579B;
+    break-inside: avoid;
+    border-radius: 15px ;
 }
 .pfooter{
     text-align: right;
@@ -65,4 +82,7 @@ footer{
 .footerlogo{
     width: 15px;
     height: 15px; 
+}
+a{
+    text-align: center;
 }
