@@ -1,6 +1,16 @@
 body{
     margin:0%;
-    font-size: 18px;
-    font-weight: 400%;
-    line-height:  1.5em;
+    font-size:18px;
+    font-weight:400%;
+    line-height:1.5em;
+    color: #212529 ;   
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    font-style: Roboto;
+    font-size: 0.8;
 }
