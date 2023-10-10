@@ -14,3 +14,17 @@ header{
     font-style: Roboto;
     font-size: 0.8;
 }
+
+h{
+    font-style:  Montserrat;
+    text-align: left;
+    padding: 10px 6px 10px 6px;  
+}
+h1{
+ font-size: 1.5;
+ text-align: left;
+}
+h2{
+ font-size: 2;
+ 
+}
