@@ -1,19 +1,13 @@
-
-
 body{
     margin:0%;
     font-size:18px;
     font-weight:400%;
     line-height:1.5em;
     color: #212529 ;
-    background-color:#DBCEE3;   
+    background: rgb(233,160,146);
+    background: linear-gradient(0deg, rgba(233,160,146,1) 0%, rgba(233,222,146,1) 59%, rgba(136,169,210,1) 90%);
 }
 
-img{
-    width: 50px;
-    height: 50px;
-
-}
 .logo{
     width: 50px;
     height: 50px;
@@ -39,42 +33,76 @@ h2{
 }
 
 div{
-height: 1640;
-width:  1180px;
+height: 1180px;
+width:  1640px;
 columns: 3;
 }
+
+.htmllogo , .csslogo , .jslogo , .githublogo, .ubuntulogo{
+    max-height: 20%;
+}
+
 .html{
-    border: 3px solid #007055;
+    border: 3px solid#d11ee17f;
     break-inside: avoid;
-    border-radius: 20px ;
-    
+    border-radius: 24px ;
+    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    width: 530px;
+    height: 580px;
+}
+.html:hover{
+    box-shadow: 0 10px 12px #8B008B;
 }
 .css{
-    border: 3px solid #007055;
+    border: 3px solid #d11ee17f;
     break-inside: avoid;
-    border-radius: 20px ;
+    border-radius: 24px ;
+    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    width: 530px;
+    height: 580px;
+}
+.css:hover{
+    box-shadow: 0 10px 12px #8B008B;
 }
 .js{
-    border: 3px solid #007055;
+    border: 3px solid #d11ee17f;
     break-inside: avoid;
-    border-radius: 20px ;
+    border-radius: 24px ;
+    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    width: 530px;
+    height: 580px;
+}
+.js:hover{
+    box-shadow: 0 10px 12px #8B008B;
 }
 .github{
-    border: 3px solid #007055;
+    border: 3px solid #d11ee17f;
     break-inside: avoid;
-    border-radius: 20px ;
+    border-radius: 24px ;
+    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    width: 530px;
+    height: 580px;
+}
+.github:hover{
+    box-shadow: 0 10px 12px #8B008B;
 }
 .ubuntu{
-    border: 3px solid #007055;
+    border: 3px solid #d11ee17f;
     break-inside: avoid;
-    border-radius: 20px ;
+    border-radius: 24px ;
+    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    width: 530px;
+    height: 580px;
+}
+.ubuntu:hover{
+    box-shadow: 0 10px 12px #8B008B;
 }
 footer{
     text-align: center;
     font-size: 0.7;
-    border: 3px solid #92579B;
-    break-inside: avoid;
-    border-radius: 15px ;
+    background: rgb(233,160,146);
+    background: radial-gradient(circle, rgba(233,160,146,1) 0%, rgba(233,222,146,1) 50%, rgba(136,169,210,1) 100%);
+    border: 2px solid rgb(103, 146, 188);
 }
 .pfooter{
     text-align: right;
