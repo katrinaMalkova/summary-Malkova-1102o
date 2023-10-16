@@ -32,10 +32,11 @@ h2{
  
 }
 
-div{
+section{
 height: 1180px;
 width:  1640px;
-columns: 3;
+display: flex;
+flex-wrap: wrap;
 }
 
 .htmllogo , .csslogo , .jslogo , .githublogo, .ubuntulogo{
