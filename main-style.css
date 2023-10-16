@@ -33,10 +33,13 @@ h2{
 }
 
 section{
-height: 1180px;
-width:  1640px;
-display: flex;
-flex-wrap: wrap;
+    height: 1180px;
+    width:  1640px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .htmllogo , .csslogo , .jslogo , .githublogo, .ubuntulogo{
@@ -50,6 +53,8 @@ flex-wrap: wrap;
     background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
     width: 530px;
     height: 580px;
+    margin: 5px;
+    
 }
 .html:hover{
     box-shadow: 0 10px 12px #8B008B;
@@ -61,6 +66,7 @@ flex-wrap: wrap;
     background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
     width: 530px;
     height: 580px;
+    margin: 5px;
 }
 .css:hover{
     box-shadow: 0 10px 12px #8B008B;
@@ -72,6 +78,7 @@ flex-wrap: wrap;
     background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
     width: 530px;
     height: 580px;
+    margin: 5px;
 }
 .js:hover{
     box-shadow: 0 10px 12px #8B008B;
@@ -83,6 +90,7 @@ flex-wrap: wrap;
     background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
     width: 530px;
     height: 580px;
+    margin: 5px;
 }
 .github:hover{
     box-shadow: 0 10px 12px #8B008B;
@@ -94,12 +102,15 @@ flex-wrap: wrap;
     background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
     width: 530px;
     height: 580px;
+    margin: 5px;
 }
 .ubuntu:hover{
     box-shadow: 0 10px 12px #8B008B;
 }
+
 footer{
     text-align: center;
+    width:  1640px;
     font-size: 0.7;
     background: rgb(233,160,146);
     background: radial-gradient(circle, rgba(233,160,146,1) 0%, rgba(233,222,146,1) 50%, rgba(136,169,210,1) 100%);
