@@ -4,8 +4,10 @@ body{
     font-weight:400%;
     line-height:1.5em;
     color: #212529 ;
-    background: rgb(195,146,233);
-    background: linear-gradient(180deg, rgba(195,146,233,0.7540266106442577) 0%, rgba(255,255,255,1) 100%);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+
 }
 
 .logo{
@@ -16,6 +18,7 @@ body{
 header{
     font-style: Roboto;
     font-size: 0.8;
+
 }
 
 h{
@@ -50,7 +53,8 @@ section{
     border: 3px solid#d11ee17f;
     break-inside: avoid;
     border-radius: 24px ;
-    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     width: 530px;
     height: 580px;
     margin: 5px;
@@ -63,7 +67,8 @@ section{
     border: 3px solid #d11ee17f;
     break-inside: avoid;
     border-radius: 24px ;
-    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     width: 530px;
     height: 580px;
     margin: 5px;
@@ -75,7 +80,8 @@ section{
     border: 3px solid #d11ee17f;
     break-inside: avoid;
     border-radius: 24px ;
-    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     width: 530px;
     height: 580px;
     margin: 5px;
@@ -87,7 +93,8 @@ section{
     border: 3px solid #d11ee17f;
     break-inside: avoid;
     border-radius: 24px ;
-    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     width: 530px;
     height: 580px;
     margin: 5px;
@@ -99,7 +106,8 @@ section{
     border: 3px solid #d11ee17f;
     break-inside: avoid;
     border-radius: 24px ;
-    background: repeating-linear-gradient(45deg, #FDD5EC 25px, #E7FED6 50px, #F8FFD6 50px);
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     width: 530px;
     height: 580px;
     margin: 5px;
@@ -112,9 +120,13 @@ footer{
     text-align: center;
     width:  1640px;
     font-size: 0.7;
-    background: rgb(245,206,249);
-    background: radial-gradient(circle, rgba(245,206,249,1) 0%, rgba(170,70,252,1) 100%);
+    background-color: #74EBD5;
+    background-image: linear-gradient(315deg, #74EBD5 0%, #9FACE6 100%);
 }
+footer:hover{
+    
+}
+    
 .pfooter{
     text-align: right;
 }
