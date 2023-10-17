@@ -16,13 +16,13 @@ body{
 }
 
 header{
-    font-style: Roboto;
+    font-style: 'Roboto';
     font-size: 0.8;
 
 }
 
 h{
-    font-style:  Montserrat;
+    font-style:  'Montserrat';
     text-align: left;
     padding: 10px 6px 10px 6px;  
 }
