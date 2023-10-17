@@ -58,6 +58,7 @@ section{
     width: 530px;
     height: 580px;
     margin: 5px;
+    text-align: center;
     
 }
 .html:hover{
@@ -72,6 +73,7 @@ section{
     width: 530px;
     height: 580px;
     margin: 5px;
+    text-align: center;
 }
 .css:hover{
     box-shadow: 0 10px 12px #8B008B;
@@ -85,6 +87,7 @@ section{
     width: 530px;
     height: 580px;
     margin: 5px;
+    text-align: center;
 }
 .js:hover{
     box-shadow: 0 10px 12px #8B008B;
@@ -98,6 +101,7 @@ section{
     width: 530px;
     height: 580px;
     margin: 5px;
+    text-align: center;
 }
 .github:hover{
     box-shadow: 0 10px 12px #8B008B;
@@ -111,6 +115,7 @@ section{
     width: 530px;
     height: 580px;
     margin: 5px;
+    text-align: center;
 }
 .ubuntu:hover{
     box-shadow: 0 10px 12px #8B008B;
