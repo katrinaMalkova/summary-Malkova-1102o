@@ -180,6 +180,36 @@
             <li>Позволяет совершать изменения согласованно и избегать конфликтов при слиянии кода.</li>
         </ul>
     </div>
+    <div>
+        <h4>Как работать с терминалом?</h4>
+        <ul>
+            <li>Сначала мы проверяем есть ли у нас shh ключ с помощью команды <span class="bold">shh -T git@github.com</span>. Если терминал здоровается с нами значит все хорошо.</li>
+            <li>Если же программа с нами не поздоровалась мы генерируем новый shh ключ с помощью команды <span class="bold">ssh-keygen -t rsa -b 4096</span></li>
+            <li>С помощью команды cat мы делаем папку для shh ключа. <span class="bold">cat .shh/id_rsa.pub</span> </li>
+            <li>Открываем папку с нашим ключом и вставляем его в гитхаб в shh ключи. Все, теперь на гитхабе есть наш ключ.</li>
+            <li>Дальше мы уже берем наш репозиторий с заданием. Мы пишем команду <span class="bold">git clone (репозиторий)</span>. В аттестации нам понадобиться shh репозитория, а не https.</li>
+            <li>С помощью команды <span class="bold">cd</span> открываем папку с клонированным репозиторием. Проверяем содержимое папки с помощью команды <span class="bold">ls</span></li>
+            <li>Команда <span class="bold">cat Makefile</span> поможет открыть нам команды. </li>
+            <li>Пишем команды <span class="bold">Make Install</span>. Следом сразу же пишем <span class="bold">ls</span> и проверяем наличие файла <span class="bold">node_modules</span>.</li>
+            <li>Если оно есть, то радуемся жизни и идем дальше. Пишем команду <span class="bold">code index.js</span>, которая откроет нам нужный файл. В этом файле мы сразуже делаем 5 пустышек-функций для наших заданий.</li>
+            <br>
+            <span class="bold">// task 1</span>
+            <br>
+            <span class="bold">const getSum = () => {};</span>
+            <br>
+            <span class="bold">//task2</span>
+            <br>
+            <span class="bold">function getSmallestNumber() {};</span>
+            <br>
+            <span class="bold">export {названия функци по порядку}</span>
+            <br>
+            <li>Команда <span class="bold">make lint</span> запускает проверку линтером. <span class="bold">Make lint-fix</span> заставляет линтер исправить некоторые ошибки.</li>
+            <li>Проверяем задание с помощью консоли. пример: <span class="bold">console.log(getSum(2,10))</span></li>
+            <li>Используем команду <span class="bold">node index.js</span> . Она проверяет работу кода. Команда <span class="bold">make tes</span>t показывает правильность задания. Если выделено зеленым — все правильно. После этого делаем <span class="bold">make lint и make lint-fix</span>.</li>
+            <li>Если нет ошибок можно пушить в помощь команд: <span class="bold">git add -A , git commit -m “первое задание», git push</span>.</li>
+            <li>Если в гитхабе появилась ветка с коммитом то все прекрасно. Можно работать.</li>
+        </ul>
+    </div>
     <footer>
         <p class="pfooter">10.10.2023</p>
         <img class="footerlogo" src="C:\Users\КАтя\OneDrive\Documents\summary-Malkova-1102o\images\logo.png" > 
