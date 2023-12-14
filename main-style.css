@@ -119,33 +119,37 @@ h3{
 }
 
 .github{
-    border: 3px solid #d11ee17f;
-    break-inside: avoid;
-    border-radius: 24px ;
-    background-color: #FAACA8;
-    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-    width: 530px;
-    height: 580px;
-    margin: 5px;
-    text-align: center;
+    background-color: #000000;
+    background-image: linear-gradient(62deg, #000000 0%, #9d9d97 100%);
+    border-radius: 24px;
+    columns: 3;
+    column-count: 3;
+    display: inline-block;
+    width: 330px;
+    height: 380px;
+    right: 0;
+    bottom: 0;
+    transition: 0.7s;
+    position: relative;
+    margin: 20px;
 }
-.github:hover{
-    box-shadow: 0 10px 12px #8B008B;
-}
+
 .ubuntu{
-    border: 3px solid #d11ee17f;
-    break-inside: avoid;
-    border-radius: 24px ;
-    background-color: #FAACA8;
-    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-    width: 530px;
-    height: 580px;
-    margin: 5px;
-    text-align: center;
+    background-color: #FAD961;
+    background-image: linear-gradient(180deg, #FAD961 0%, #f71c49 100%);
+    border-radius: 24px;
+    columns: 3;
+    column-count: 3;
+    display: inline-block;
+    width: 330px;
+    height: 380px;
+    right: 0;
+    bottom: 0;
+    transition: 0.7s;
+    position: relative;
+    margin: 20px;
 }
-.ubuntu:hover{
-    box-shadow: 0 10px 12px #8B008B;
-}
+
 
 footer{
     text-align: center;
