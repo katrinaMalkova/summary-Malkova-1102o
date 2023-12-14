@@ -185,6 +185,10 @@ div > img {
     bottom: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
     width:  1640px;
