@@ -60,14 +60,13 @@ h3{
     padding-left: 1.5em;
 }
 
-section{
-    height: 1180px;
-    width:  1640px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.section{
+    height: 850px;
+    width:  1180x;
+    font-family: Montserrat-Regular, sans-serif ;
+    font-size: 1em;
+    position: relative;
+    left: 200px
 }
 
 .htmllogo , .csslogo , .jslogo , .githublogo, .ubuntulogo{
