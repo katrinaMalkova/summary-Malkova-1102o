@@ -155,6 +155,36 @@ div > img {
     padding-top: 15px;
 }
 
+.html:hover {
+    box-shadow: 10px 10px 10px #4F575C;
+    right: 10px;
+    bottom: 10px;
+}
+
+.css:hover {
+    box-shadow: 10px 10px 10px #4F575C;
+    right: 10px;
+    bottom: 10px;
+}
+
+.js:hover {
+    box-shadow: 10px 10px 10px #4F575C;
+    right: 10px;
+    bottom: 10px;
+}
+
+.github:hover {
+    box-shadow: 10px 10px 10px #4F575C;
+    right: 10px;
+    bottom: 10px;
+}
+
+.ubuntu:hover {
+    box-shadow: 10px 10px 10px #4F575C;
+    right: 10px;
+    bottom: 10px;
+}
+
 footer{
     text-align: center;
     width:  1640px;
