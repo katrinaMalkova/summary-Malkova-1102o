@@ -1,4 +1,24 @@
-body{
+@font-face {
+    font-family: Roboto-Regular, sans-serif;
+    src: url('Fonts/Roboto-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: RobotoMono-Regular, sans-serif;
+    src: url('Fonts/RobotoMono-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-Regular, sans-serif;
+    src: url('Fonts/Montserrat-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: SFMono-Regular, sans-serif;
+    src: url('Fonts/SFMono-Regular.otf');
+  }
+  
+  body{
     margin:0%;
     font-size:18px;
     font-weight:400%;
