@@ -40,7 +40,7 @@
     }
 
     .lodash{
-        border-bottom: 3px solid #8AD0FF;
+        border-bottom: 3px solid #486D87;
         padding: 0;
         margin-bottom: 12px;
         border-top-left-radius: 3px;
@@ -51,12 +51,12 @@
       }
       
       .sheet{
-        background: #8AD0FF;
+        background: #486D87;
         text-align: left;
         padding: 6px 8px;
         margin: 0;
         border-bottom: 50px solid #8AD0FF;
-        color: #46473b;
+        color: #d5f4f7;
       }
       
       .block{

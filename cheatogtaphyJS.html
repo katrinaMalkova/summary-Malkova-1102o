@@ -3,461 +3,477 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="cheatJS.css">
 <title>cheatogtaphyJS</title>
-<head>
-  <div class="head">
-    <img src="images\logo.png" alt="logo" class="logo">
-    <p>Малькова Екатерина, группа 1102о</p>
-    <p>Преподаватель: Цветкова Людмила Александровна</p>
-  </div>
-</head>
+    <head>
+        <div class="head">
+            <img src="images\logo.png" alt="logo" class="logo">
+            <p>Малькова Екатерина, группа 1102о</p>
+            <p>Преподаватель: Цветкова Людмила Александровна</p>
+        </div>
+    </head>
     <body>
         <div class="pagelink">
             <a href="index.html" alt="Main Page" class="MainPage">На главную</a>
         </div>
     
-  <title>Типы данных в JavaScript</title>
-  <h2>Типы данных в JavaScript</h2>
-  <table>
-    <tr>
-      <th>Тип данных</th>
-      <th>Описание</th>
-      <th>Свойства / Методы</th>
-    </tr>
-    <tr>
-      <td>Number</td>
-      <td>Представляет числовое значение</td>
-      <td>
-        <ul>
-          <li>Number.MAX_VALUE: Максимальное положительное значение, пригодное для представления в JavaScript.</li>
-          <li>Number.MIN_VALUE: Минимальное положительное нормализованное число.</li>
-          <li>Number.isInteger(): Определяет, является ли значение целым числом.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>String</td>
-      <td>Представляет строку текста</td>
-      <td>
-        <ul>
-          <li>String.length: Возвращает длину строки.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Boolean</td>
-      <td>Представляет логическое значение true или false</td>
-      <td>
-        <ul>
-          <li>Boolean(): Преобразует значение к логическому типу.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Object</td>
-      <td>Представляет объект</td>
-      <td>
-        <ul>
-          <li>Object.keys(): Возвращает массив ключей объекта.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Null</td>
-      <td>Представляет отсутствие значения</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Undefined</td>
-      <td>Представляет переменную, которой не присвоено значение</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Symbol</td>
-      <td>Уникальный и неизменяемый тип данных для создания уникальных идентификаторов</td>
-      <td></td>
-    </tr>
-  </table>
-  <p>Исключения:</p>
-    <ol>
-<li>null является "ложным" значением типа Object в JavaScript.</li>
-<li>Infinity и -Infinity являются специальными значениями типа Number.</li>
-<li>NaN (Not-A-Number) является специальным значением типа Number.</li>
-  </ol>
-
-  <title>Структуры данных в JavaScript</title>
-  <h2>Структуры данных в JavaScript</h2>
-  <table>
-    <tr>
-      <th>Тип данных</th>
-      <th>Описание</th>
-      <th>Методы</th>
-      <th>Пример</th>
-    </tr>
-    <tr>
-      <td>Массивы</td>
-      <td>Представляют упорядоченную коллекцию элементов.</td>
-      <td>
-        <ul>
-          <li>push(элемент) - добавляет элемент в конец массива.</li>
-          <li>pop() - удаляет последний элемент массива.</li>
-          <li>slice(start, end) - возвращает подмассив от start до end.</li>
-        </ul>
-      </td>
-      <td>let arr = [1, 2, 3];<br>arr.push(4);<br>arr.pop();<br>arr.slice(0, 2);</td>
-    </tr>
-    <tr>
-      <td>Стек</td>
-      <td>Представляет структуру данных типа Last In, First Out (LIFO).</td>
-      <td>
-        <ul>
-          <li>push(элемент) - добавляет элемент в вершину стека.</li>
-          <li>pop() - удаляет последний добавленный элемент.</li>
-        </ul>
-      </td>
-      <td>let stack = [];<br>stack.push(1);<br>stack.push(2);<br>let topElement = stack.pop();</td>
-    </tr>
-    <tr>
-      <td>Очередь</td>
-      <td>Представляет структуру данных типа First In, First Out (FIFO).</td>
-      <td>
-        <ul>
-          <li>push(элемент) - добавляет элемент в конец очереди.</li>
-          <li>shift() - удаляет первый добавленный элемент.</li>
-        </ul>
-      </td>
-      <td>let queue = [];<br>queue.push(1);<br>queue.push(2);<br>let firstElement = queue.shift();</td>
-    </tr>
-  </table>
-
-  <title>Арифметические операции</title>
-  <h2>Арифметические операции</h2>
-  <table>
-    <tr>
-      <th>Операция</th>
-      <th>Пример</th>
-      <th>Результат</th>
-    </tr>
-    <tr>
-      <td>Сложение</td>
-      <td>let result = 2 + 3;</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Вычетание</td>
-      <td>let result = 5 - 2; 
-</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Умножение</td>
-      <td>let result = 4 * 3;</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <td>Деление</td>
-      <td>let result = 10 / 2;</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Остаток от деления</td>
-      <td>let remainder = 10 % 3;</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Инкремент (увеличение на 1)</td>
-      <td>let a = 5;
-a++;</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>Декремент (уменьшение на 1)</td>
-      <td>let b = 3;
-b--;</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Деление с остатком (Math.floor, Math.ceil, Math.round)</td>
-      <td>let divisionResult = 14 / 3;  
-let floorResult = Math.floor(divisionResult);  
-let ceilResult = Math.ceil(divisionResult); 
-let roundResult = Math.round(divisionResult);  
-
-</td>
-      <td>divisionResult = 4.666666666666667, floorResult = 4, ceilResult = 5, roundResult = 5 </td>
-    </tr>
-  </table>
-
-  <title>Часто используемые функции библиотеки Math</title>
-  <h2>Часто используемые функции библиотеки Math</h2>
-  <table>
-    <tr>
-      <th>Функция</th>
-      <th>Описание</th>
-    </tr>
-    <tr>
-      <td>Math.abs(x)</td>
-      <td>Возвращает абсолютное значение числа x.</td>
-    </tr>
-    <tr>
-      <td>Math.ceil(x)</td>
-      <td>Округляет число x вверх до ближайшего целого.</td>
-    </tr>
-    <tr>
-      <td>Math.floor(x)</td>
-      <td>Округляет число x вниз до ближайшего целого.</td>
-    </tr>
-    <tr>
-      <td>Math.max(x, y, z, ...)</td>
-      <td>Возвращает наибольшее из переданных чисел.</td>
-    </tr>
-    <tr>
-      <td>Math.min(x, y, z, ...)</td>
-      <td>Возвращает наименьшее из переданных чисел.</td>
-    </tr>
-    <tr>
-      <td>Math.pow(x, y)</td>
-      <td>Возвращает результат возведения числа x в степень y.</td>
-    </tr>
-    <tr>
-      <td>Math.random()</td>
-      <td>Возвращает псевдослучайное число в диапазоне от 0 (включительно) до 1 (исключительно).</td>
-    </tr>
-    <tr>
-      <td>Math.round(x)</td>
-      <td>Округляет число x до ближайшего целого.</td>
-    </tr>
-    <tr>
-      <td>Math.sqrt(x)</td>
-      <td>Возвращает квадратный корень числа x.</td>
-    </tr>
-    <tr>
-      <td>Math.sin(x), Math.cos(x), Math.tan(x)</td>
-      <td>Возвращают синус, косинус и тангенс угла x, выраженного в радианах.</td>
-    </tr>
-    <tr>
-      <td>Math.PI</td>
-      <td>Константа, представляющая число Пи (π).</td>
-    </tr>
-    <tr>
-      <td>Math.E</td>
-      <td>Константа, представляющая число экспоненты (e).</td>
-    </tr>
-  </table>
-
-  <title>Lodash Functions</title>  
-    <h2>Lodash Functions</h2> 
-    <table> 
-        <tr> 
-            <th>Функция Lodash</th> 
-            <th>Описание</th> 
-        </tr> 
-        <tr> 
-            <td>_.map(collection, iteratee)</td> 
-            <td>Проходит по каждому элементу коллекции и применяет функцию iteratee к каждому элементу, возвращая новый массив.</td> 
-        </tr> 
-        <tr> 
-            <td>_.filter(collection, predicate)</td> 
-            <td>Фильтрует коллекцию, оставляя только элементы, удовлетворяющие условию, заданному функцией predicate.</td> 
-        </tr> 
-        <tr> 
-            <td>_.find(collection, predicate)</td> 
-            <td>Находит первый элемент в коллекции, удовлетворяющий условию, заданному функцией predicate.</td> 
-        </tr> 
-        <tr> 
-            <td>_.sortBy(collection, [iteratees])</td> 
-            <td>Сортирует элементы коллекции на основе результатов применения функций iteratees.</td> 
-        </tr> 
-        <tr> 
-            <td>_.groupBy(collection, iteratee)</td> 
-            <td>Группирует элементы коллекции по результатам применения функции iteratee.</td> 
-        </tr> 
-        <tr> 
-            <td>_.reduce(collection, iteratee, [accumulator])</td> 
-            <td>Проходит по коллекции, применяя функцию iteratee, копит результаты в accumulator и возвращает их.</td> 
-        </tr> 
-        <tr> 
-            <td>_.debounce(func, wait, [options])</td> 
-            <td>Возвращает функцию, которая откладывает выполнение func на wait миллисекунд.</td> 
-        </tr> 
-        <tr> 
-            <td>_.throttle(func, wait, [options])</td> 
-            <td>Возвращает функцию, которая выполняет func не чаще, чем каждые wait миллисекунд.</td> 
-        </tr> 
-        <tr> 
-            <td>_.isEmpty(value)</td> 
-            <td>Проверяет, пуст ли переданный value. Для строк, массивов, объектов и др. будет возвращено true, если длина равна 0.</td> 
-        </tr> 
-        <tr> 
-            <td>_.isEqual(value, other)</td> 
-            <td>Сравнивает два значения на идентичность.</td> 
-        </tr> 
-        <tr> 
-            <td>_.cloneDeep(value)</td> 
-            <td>Создает глубокую копию переданного value, клонируя все вложенные структуры.</td> 
-        </tr> 
-    </table> 
-
-    <title>Логические операторы в JavaScript</title>  
-    <h2>Логические операторы в JavaScript</h2> 
-    <table> 
-        <tr> 
-            <th>Оператор</th> 
-            <th>Пример</th> 
-            <th>Описание</th> 
-        </tr> 
-        <tr> 
-            <td>Логическое И (AND): &&</td> 
-            <td>if (x > 5 && y < 10) { /* код */ }</td> 
-            <td>Возвращает true, если оба операнда x и y истинны.</td> 
-        </tr> 
-        <tr> 
-            <td>Логическое ИЛИ (OR): </td> 
-            <td>if (a === 0  b === 0) { /* код */ }</td> 
-            <td>Возвращает true, если хотя бы один из операндов a или b истинен.</td> 
-        </tr> 
-        <tr> 
-            <td>Логическое НЕ (NOT): !</td> 
-            <td>if (!isAdmin) { /* код */ }</td> 
-            <td>Инвертирует значение операнда, возвращая true, если операнд ложен.</td> 
-        </tr> 
-        <tr> 
-            <td>Логическое Исключающее ИЛИ (XOR): ^</td> 
-            <td>if (p || q && !(p && q)) { /* код */ }</td> 
-            <td>Возвращает true, если операнды различны (один из них истинен, а другой — ложен).</td> 
-        </tr> 
-        <tr> 
-            <td>Тернарный оператор</td> 
-            <td>условие ? выражение1 : выражение2</td> 
-            <td>Возвращает выражение1, если условие истинно, иначе — выражение2.</td> 
-        </tr> 
-    </table> 
-
-    <title>Условия и Циклы в JavaScript</title> 
-    <h2>Условия и Циклы в JavaScript</h2> 
-    <table> 
-        <tr> 
-            <th>Конструкция</th> 
-            <th>Пример</th> 
-            <th>Описание</th> 
-        </tr> 
-        <tr> 
-            <td>Условие If-else</td> 
-            <td> 
-                if (условие) {<br> 
-                &nbsp;&nbsp;// код, выполняемый, если условие истинно<br> 
-                } else {<br> 
-                &nbsp;&nbsp;// код, выполняемый, если условие ложно<br> 
-                } 
-            </td> 
-            <td>Пример: var число = 10;<br> 
-                if (число > 0) {<br> 
-                &nbsp;&nbsp;console.log("Число положительное");<br> 
-                } else {<br> 
-                &nbsp;&nbsp;console.log("Число отрицательное или ноль");<br> 
-                } 
-            </td> 
-        </tr> 
-        <tr> 
-            <td>Цикл For</td> 
-            <td> 
-                for (начальное_значение; условие; инкремент) {<br> 
-                &nbsp;&nbsp;// код, выполняемый в каждой итерации цикла<br> 
-                } 
-            </td> 
-            <td>Пример: for (var i = 0; i &lt; 5; i++) {<br> 
-                &nbsp;&nbsp;console.log("Итерация номер " + i);<br> 
-                } 
-            </td> 
-        </tr> 
-        <tr> 
-            <td>Цикл While</td> 
-            <td> 
-                while (условие) {<br> 
-                &nbsp;&nbsp;// код, выполняемый до тех пор, пока условие истинно<br> 
-                } 
-            </td> 
-            <td>Пример: var счетчик = 0;<br> 
-                while (счетчик &lt; 3) {<br> 
-                &nbsp;&nbsp;console.log("Счетчик: " + счетчик);<br> 
-                &nbsp;&nbsp;счетчик++;<br> 
-                } 
-            </td> 
-        </tr> 
-        <tr> 
-            <td>Цикл Do-while</td> 
-            <td> 
-                do {<br> 
-                &nbsp;&nbsp;// код, выполняемый хотя бы один раз, затем проверяется условие<br> 
-                } while (условие); 
-            </td> 
-            <td>Пример: var число;<br> 
-                do {<br> 
-                &nbsp;&nbsp;число = prompt("Введите число больше 100:", 0);<br> 
-                } while (число &lt;= 100); 
-            </td> 
-        </tr> 
-    </table> 
-
-    <title>Функции в JavaScript</title>  
-    <h2>Функции в JavaScript</h2> 
-    <table> 
-        <tr> 
-            <th>Конструкция</th> 
-            <th>Пример</th> 
-            <th>Описание</th> 
-        </tr> 
-        <tr> 
-            <td>Объявление функций</td> 
-            <td> 
-                function имя_функции(параметр1, параметр2, ...) {<br> 
-                &nbsp;&nbsp;// код выполняемый функцией<br> 
-                } 
-            </td> 
-            <td>Пример: function приветствие(имя) {<br> 
-                &nbsp;&nbsp;return "Привет, " + имя + "!";<br> 
-                }</td> 
-        </tr> 
-        <tr> 
-            <td>Стрелочные функции</td> 
-            <td> 
-                const имя_функции = (параметр1, параметр2, ...) => {<br> 
-                &nbsp;&nbsp;// код выполняемый функцией<br> 
-                } 
-            </td> 
-            <td>Пример: const квадрат = (x) => x * x;</td> 
-        </tr> 
-        <tr> 
-            <td>Импорт и экспорт модулей</td> 
-            <td> 
-                // Экспорт:<br> 
-                // В файле модуля<br> 
-                export function имя_функции() {<br> 
-                &nbsp;&nbsp;// код функции<br> 
-                }<br> 
-                // Или<br> 
-                export default имя_функции;<br> 
-                // Импорт:<br> 
-                // В другом файле<br> 
-                import { имя_функции } from './модуль';<br> 
-                // Использование функции<br> 
-                имя_функции(); 
-            </td> 
-            <td>Пример: см. описание</td> 
-        </tr> 
-    </table> 
-
-    <footer>
-        <div class="footer-content">
-                <div class="centered-content">
-                    <img src="images/logo.png" alt="logoHexlet" class="logo_footer">
-                    <a href="https://ru.hexlet.io/" alt="Hexlet" class="HexCool">Hexlet</a>
+        <title>Типы данных в JavaScript</title>
+        <h2>Типы данных в JavaScript</h2>
+        <table class="lodash">
+            <tr class="sheet">
+                <th>Тип данных</th>
+                <th>Описание</th>
+                <th>Свойства / Методы</th>
+            </tr>
+                <div class="block">
+                 <tr>
+                    <td>Number</td>
+                    <td>Представляет числовое значение</td>
+                    <td>
+                        <ul>
+                            <li>Number.MAX_VALUE: Максимальное положительное значение, пригодное для представления в JavaScript.</li>
+                            <li>Number.MIN_VALUE: Минимальное положительное нормализованное число.</li>
+                            <li>Number.isInteger(): Определяет, является ли значение целым числом.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>String</td>
+                    <td>Представляет строку текста</td>
+                    <td>
+                        <ul>
+                            <li>String.length: Возвращает длину строки.</li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>Boolean</td>
+                    <td>Представляет логическое значение true или false</td>
+                    <td>
+                    <ul>
+                        <li>Boolean(): Преобразует значение к логическому типу.</li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Object</td>
+                    <td>Представляет объект</td>
+                    <td>
+                    <ul>
+                        <li>Object.keys(): Возвращает массив ключей объекта.</li>
+                    </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Null</td>
+                    <td>Представляет отсутствие значения</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Undefined</td>
+                    <td>Представляет переменную, которой не присвоено значение</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Symbol</td>
+                    <td>Уникальный и неизменяемый тип данных для создания уникальных идентификаторов</td>
+                    <td></td>
+                </tr>
                 </div>
-                <div class="footer-text">
-                    <p>Дата создания: 15.12.2023</p>
-                    <p>Создатель: Екатерина Малькова, группа 1102o</p>
-                </div>
+        </table>
+        <p>Исключения:</p>
+            <ol>
+                <li>null является "ложным" значением типа Object в JavaScript.</li>
+                <li>Infinity и -Infinity являются специальными значениями типа Number.</li>
+                <li>NaN (Not-A-Number) является специальным значением типа Number.</li>
+            </ol>
+
+        <title>Структуры данных в JavaScript</title>
+            <h2>Структуры данных в JavaScript</h2>
+        <table class="lodash">
+            <tr class="sheet">
+                <th>Тип данных</th>
+                <th>Описание</th>
+                <th>Методы</th>
+                <th>Пример</th>
+            </tr>
+            <div class="block">
+                <tr>
+                    <td>Массивы</td>
+                    <td>Представляют упорядоченную коллекцию элементов.</td>
+                    <td>
+                        <ul>
+                            <li>push(элемент) - добавляет элемент в конец массива.</li>
+                            <li>pop() - удаляет последний элемент массива.</li>
+                            <li>slice(start, end) - возвращает подмассив от start до end.</li>
+                        </ul>
+                    </td>
+                    <td>let arr = [1, 2, 3];<br>arr.push(4);<br>arr.pop();<br>arr.slice(0, 2);</td>
+                </tr>
+                <tr>
+                    <td>Стек</td>
+                    <td>Представляет структуру данных типа Last In, First Out (LIFO).</td>
+                    <td>
+                        <ul>
+                            <li>push(элемент) - добавляет элемент в вершину стека.</li>
+                            <li>pop() - удаляет последний добавленный элемент.</li>
+                        </ul>
+                    </td>
+                    <td>let stack = [];<br>stack.push(1);<br>stack.push(2);<br>let topElement = stack.pop();</td>
+                </tr>
+                <tr>
+                    <td>Очередь</td>
+                    <td>Представляет структуру данных типа First In, First Out (FIFO).</td>
+                    <td>
+                        <ul>
+                            <li>push(элемент) - добавляет элемент в конец очереди.</li>
+                            <li>shift() - удаляет первый добавленный элемент.</li>
+                        </ul>
+                    </td>
+                    <td>let queue = [];<br>queue.push(1);<br>queue.push(2);<br>let firstElement = queue.shift();</td>
+                </tr>
             </div>
-        </footer>
+        </table>
+
+        <title>Арифметические операции</title>
+        <h2>Арифметические операции</h2>
+        <table class="lodash">
+            <tr class="sheet">
+                <th>Операция</th>
+                <th>Пример</th>
+                <th>Результат</th>
+            </tr>
+            <div class="block">
+                <tr>
+                    <td>Сложение</td>
+                    <td>let result = 2 + 3;</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Вычетание</td>
+                    <td>let result = 5 - 2; 
+                    </td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Умножение</td>
+                    <td>let result = 4 * 3;</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Деление</td>
+                    <td>let result = 10 / 2;</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Остаток от деления</td>
+                    <td>let remainder = 10 % 3;</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Инкремент (увеличение на 1)</td>
+                    <td>let a = 5;
+                    a++;</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Декремент (уменьшение на 1)</td>
+                    <td>let b = 3;
+                    b--;</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Деление с остатком (Math.floor, Math.ceil, Math.round)</td>
+                    <td>let divisionResult = 14 / 3;  
+                    let floorResult = Math.floor(divisionResult);  
+                    let ceilResult = Math.ceil(divisionResult); 
+                    let roundResult = Math.round(divisionResult);  
+
+                    </td>
+                    <td>divisionResult = 4.666666666666667, floorResult = 4, ceilResult = 5, roundResult = 5 </td>
+                </tr>
+            </div>
+        </table>
+
+        <title>Часто используемые функции библиотеки Math</title>
+        <h2>Часто используемые функции библиотеки Math</h2>
+        <table class="lodash">
+            <tr class="sheet">
+                <th>Функция</th>
+                <th>Описание</th>
+            </tr>
+            <div class="block">
+                <tr>
+                    <td>Math.abs(x)</td>
+                    <td>Возвращает абсолютное значение числа x.</td>
+                </tr>
+                <tr>
+                    <td>Math.ceil(x)</td>
+                    <td>Округляет число x вверх до ближайшего целого.</td>
+                </tr>
+                <tr>
+                    <td>Math.floor(x)</td>
+                    <td>Округляет число x вниз до ближайшего целого.</td>
+                </tr>
+                <tr>
+                    <td>Math.max(x, y, z, ...)</td>
+                    <td>Возвращает наибольшее из переданных чисел.</td>
+                </tr>
+                <tr>
+                    <td>Math.min(x, y, z, ...)</td>
+                    <td>Возвращает наименьшее из переданных чисел.</td>
+                </tr>
+                <tr>
+                    <td>Math.pow(x, y)</td>
+                    <td>Возвращает результат возведения числа x в степень y.</td>
+                </tr>
+                <tr>
+                    <td>Math.random()</td>
+                    <td>Возвращает псевдослучайное число в диапазоне от 0 (включительно) до 1 (исключительно).</td>
+                </tr>
+                <tr>
+                    <td>Math.round(x)</td>
+                    <td>Округляет число x до ближайшего целого.</td>
+                </tr>
+                <tr>
+                    <td>Math.sqrt(x)</td>
+                    <td>Возвращает квадратный корень числа x.</td>
+                </tr>
+                <tr>
+                    <td>Math.sin(x), Math.cos(x), Math.tan(x)</td>
+                    <td>Возвращают синус, косинус и тангенс угла x, выраженного в радианах.</td>
+                </tr>
+                <tr>
+                    <td>Math.PI</td>
+                    <td>Константа, представляющая число Пи (π).</td>
+                    </tr>
+                    <tr>
+                        <td>Math.E</td>
+                        <td>Константа, представляющая число экспоненты (e).</td>
+                    </tr>
+            </div>
+        </table>
+
+        <title>Lodash Functions</title>  
+        <h2>Lodash Functions</h2> 
+        <table class="lodash">
+            <tr class="sheet"> 
+                <th>Функция Lodash</th> 
+                <th>Описание</th> 
+            </tr>
+                <div class="block">   
+                    <tr> 
+                        <td>_.map(collection, iteratee)</td> 
+                        <td>Проходит по каждому элементу коллекции и применяет функцию iteratee к каждому элементу, возвращая новый массив.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.filter(collection, predicate)</td> 
+                        <td>Фильтрует коллекцию, оставляя только элементы, удовлетворяющие условию, заданному функцией predicate.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.find(collection, predicate)</td> 
+                        <td>Находит первый элемент в коллекции, удовлетворяющий условию, заданному функцией predicate.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.sortBy(collection, [iteratees])</td> 
+                        <td>Сортирует элементы коллекции на основе результатов применения функций iteratees.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.groupBy(collection, iteratee)</td> 
+                        <td>Группирует элементы коллекции по результатам применения функции iteratee.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.reduce(collection, iteratee, [accumulator])</td> 
+                        <td>Проходит по коллекции, применяя функцию iteratee, копит результаты в accumulator и возвращает их.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.debounce(func, wait, [options])</td> 
+                        <td>Возвращает функцию, которая откладывает выполнение func на wait миллисекунд.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.throttle(func, wait, [options])</td> 
+                        <td>Возвращает функцию, которая выполняет func не чаще, чем каждые wait миллисекунд.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.isEmpty(value)</td> 
+                        <td>Проверяет, пуст ли переданный value. Для строк, массивов, объектов и др. будет возвращено true, если длина равна 0.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.isEqual(value, other)</td> 
+                        <td>Сравнивает два значения на идентичность.</td> 
+                    </tr> 
+                    <tr> 
+                        <td>_.cloneDeep(value)</td> 
+                        <td>Создает глубокую копию переданного value, клонируя все вложенные структуры.</td> 
+                    </tr>
+                </div>
+        </table> 
+
+        <title>Логические операторы в JavaScript</title>  
+        <h2>Логические операторы в JavaScript</h2> 
+            <table class="lodash">
+                <tr class="sheet"> 
+                    <th>Оператор</th> 
+                    <th>Пример</th> 
+                    <th>Описание</th> 
+                </tr>
+                    <div class="block">
+                        <tr> 
+                            <td>Логическое И (AND): &&</td> 
+                            <td>if (x > 5 && y < 10) { /* код */ }</td> 
+                            <td>Возвращает true, если оба операнда x и y истинны.</td> 
+                        </tr> 
+                        <tr> 
+                            <td>Логическое ИЛИ (OR): </td> 
+                            <td>if (a === 0  b === 0) { /* код */ }</td> 
+                            <td>Возвращает true, если хотя бы один из операндов a или b истинен.</td> 
+                        </tr> 
+                        <tr> 
+                            <td>Логическое НЕ (NOT): !</td> 
+                            <td>if (!isAdmin) { /* код */ }</td> 
+                            <td>Инвертирует значение операнда, возвращая true, если операнд ложен.</td> 
+                        </tr> 
+                        <tr> 
+                            <td>Логическое Исключающее ИЛИ (XOR): ^</td> 
+                            <td>if (p || q && !(p && q)) { /* код */ }</td> 
+                            <td>Возвращает true, если операнды различны (один из них истинен, а другой — ложен).</td> 
+                        </tr> 
+                        <tr> 
+                            <td>Тернарный оператор</td> 
+                            <td>условие ? выражение1 : выражение2</td> 
+                            <td>Возвращает выражение1, если условие истинно, иначе — выражение2.</td> 
+                        </tr>
+                    </div>
+            </table> 
+
+            <title>Условия и Циклы в JavaScript</title> 
+            <h2>Условия и Циклы в JavaScript</h2> 
+            <table class="lodash">
+                <tr class="sheet">
+                    <th>Конструкция</th> 
+                    <th>Пример</th> 
+                    <th>Описание</th> 
+                </tr>
+                    <div class="block">
+                        <tr> 
+                            <td>Условие If-else</td> 
+                            <td> 
+                                if (условие) {<br> 
+                                &nbsp;&nbsp;// код, выполняемый, если условие истинно<br> 
+                                } else {<br> 
+                                &nbsp;&nbsp;// код, выполняемый, если условие ложно<br> 
+                                } 
+                            </td> 
+                            <td>Пример: var число = 10;<br> 
+                                if (число > 0) {<br> 
+                                &nbsp;&nbsp;console.log("Число положительное");<br> 
+                                } else {<br> 
+                                &nbsp;&nbsp;console.log("Число отрицательное или ноль");<br> 
+                                } 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td>Цикл For</td> 
+                            <td> 
+                                for (начальное_значение; условие; инкремент) {<br> 
+                                &nbsp;&nbsp;// код, выполняемый в каждой итерации цикла<br> 
+                                } 
+                            </td> 
+                            <td>Пример: for (var i = 0; i &lt; 5; i++) {<br> 
+                                &nbsp;&nbsp;console.log("Итерация номер " + i);<br> 
+                                } 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td>Цикл While</td> 
+                            <td> 
+                                while (условие) {<br> 
+                                &nbsp;&nbsp;// код, выполняемый до тех пор, пока условие истинно<br> 
+                                } 
+                            </td> 
+                            <td>Пример: var счетчик = 0;<br> 
+                                while (счетчик &lt; 3) {<br> 
+                                &nbsp;&nbsp;console.log("Счетчик: " + счетчик);<br> 
+                                &nbsp;&nbsp;счетчик++;<br> 
+                                } 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td>Цикл Do-while</td> 
+                            <td> 
+                                do {<br> 
+                                &nbsp;&nbsp;// код, выполняемый хотя бы один раз, затем проверяется условие<br> 
+                                } while (условие); 
+                            </td> 
+                            <td>Пример: var число;<br> 
+                                do {<br> 
+                                &nbsp;&nbsp;число = prompt("Введите число больше 100:", 0);<br> 
+                                } while (число &lt;= 100); 
+                            </td> 
+                        </tr>
+                    </div>
+            </table> 
+
+            <title>Функции в JavaScript</title>  
+            <h2>Функции в JavaScript</h2> 
+            <table class="lodash">
+                <tr class="sheet">
+                    <th>Конструкция</th> 
+                    <th>Пример</th> 
+                    <th>Описание</th> 
+                </tr>
+                    <div class="block">
+                        <tr> 
+                            <td>Объявление функций</td> 
+                            <td> 
+                                function имя_функции(параметр1, параметр2, ...) {<br> 
+                                &nbsp;&nbsp;// код выполняемый функцией<br> 
+                                } 
+                            </td> 
+                            <td>Пример: function приветствие(имя) {<br> 
+                                &nbsp;&nbsp;return "Привет, " + имя + "!";<br> 
+                                }</td> 
+                        </tr> 
+                        <tr> 
+                            <td>Стрелочные функции</td> 
+                            <td> 
+                                const имя_функции = (параметр1, параметр2, ...) => {<br> 
+                                &nbsp;&nbsp;// код выполняемый функцией<br> 
+                                } 
+                            </td> 
+                            <td>Пример: const квадрат = (x) => x * x;</td> 
+                        </tr> 
+                        <tr> 
+                            <td>Импорт и экспорт модулей</td> 
+                            <td> 
+                                // Экспорт:<br> 
+                                // В файле модуля<br> 
+                                export function имя_функции() {<br> 
+                                &nbsp;&nbsp;// код функции<br> 
+                                }<br> 
+                                // Или<br> 
+                                export default имя_функции;<br> 
+                                // Импорт:<br> 
+                                // В другом файле<br> 
+                                import { имя_функции } from './модуль';<br> 
+                                // Использование функции<br> 
+                                имя_функции(); 
+                            </td> 
+                            <td>Пример: см. описание</td> 
+                        </tr>
+                    </div>
+            </table> 
+
+            <footer>
+                <div class="footer-content">
+                    <div class="centered-content">
+                        <img src="images/logo.png" alt="logoHexlet" class="logo_footer">
+                        <a href="https://ru.hexlet.io/" alt="Hexlet" class="HexCool">Hexlet</a>
+                    </div>
+                    <div class="footer-text">
+                        <p>Дата создания: 15.12.2023</p>
+                        <p>Создатель: Екатерина Малькова, группа 1102o</p>
+                    </div>
+                </div>
+            </footer>
 
     </body>
 </html>
