@@ -10,5 +10,13 @@ body{
 }
 
 .MainPage{
-    
+    font-family: Roboto-Regular, sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 20px;
+    position: relative;
+    left: 870px;
 }
