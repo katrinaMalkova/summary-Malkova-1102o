@@ -73,6 +73,262 @@ img{
     border-radius: 24px;
 }
 
-.JSPoctureNum{
-    
+.JSPictureNum{
+    height: 70px;
+    width: 950px;
 }
+
+.JSPictureStr{
+    height: 70px;
+    width: 950px;
+}
+
+.JSPictureStr:last-child {
+    height: 120px;
+    width: 950px;
+  }
+  
+  .JSPictureBool {
+    height: 70px;
+    width: 950px;
+  }
+  
+  .JSPictureUnd {
+    height: 70px;
+    width: 950px;
+  }
+  
+  .JSPictureSymObj {
+    height: 70px;
+    width: 950px;
+  }
+  
+  .JSPictureNull {
+    height: 70px;
+    width: 950px;
+  }
+  
+  .JSPictureBigInt {
+    height: 70px;
+    width: 950px;
+  }
+
+  .structureparagraph {
+    text-align: center;
+    color: #89A086;
+    font-size: 40px;
+    border-top: 10px solid black;
+    padding-top: 20px;
+  }
+
+  .structureh3 {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #223d1ebe;
+    border-radius: 20px;
+    background-color: #3b634d;
+    background-image: linear-gradient(45deg, #3b634d 0%, #FFFB7D 100%);
+  }
+  .JSPmassive1 {
+    height: 140px;
+    width: 700px;
+  }
+  
+  .JSPmassive2 {
+    height: 140px;
+    width: 600px;
+  }
+  
+  .JSPmassive3 {
+    height: 100px;
+    width: 950px;
+  }
+  
+  .JSPmassive4 {
+    height: 200px;
+    width: 600px;
+  }
+  
+  .JSPqueue {
+    height: 400px;
+    width: 400px;
+  }
+
+  .arifmetic {
+    text-align: center;
+    color: #89A086;
+    font-size: 40px;
+    border-top: 10px solid black;
+    padding-top: 20px;
+  }
+  
+  .arifmtab {
+    border: solid 3px black;
+    font-size: 20px;
+    border-radius: 24px;
+    background: white;
+  }
+  
+  .Math {
+    text-align: center;
+    color: #89A086;
+    font-size: 40px;
+    border-top: 10px solid black;
+    padding-top: 20px;
+  }
+  
+  .mathh {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #223d1ebe;
+    border-radius: 20px;
+    background-color: #3b634d;
+    background-image: linear-gradient(45deg, #3b634d 0%, #FFFB7D 100%);
+  }
+  
+  .mathabs {
+    height: 500px;
+    width: 750px;
+  }
+  
+  .mathfloor {
+    height: 200px;
+    width: 600px;
+  }
+  
+  .mathrandom {
+    height: 350px;
+    width: 600px;
+  }
+  
+  .mathmax {
+    height: 200px;
+    width: 480px;
+  }
+  
+  .mathmin {
+    height: 200px;
+    width: 450px;
+  }
+  
+  .mathtrunc {
+    height: 350px;
+    width: 500px;
+  }
+
+  .lodash {
+    text-align: center;
+    color: #89A086;
+    font-size: 40px;
+    border-top: 10px solid black;
+    padding-top: 20px;
+  }
+  
+  .logicoperation {
+    text-align: center;
+    color: #89A086;
+    font-size: 40px;
+    border-top: 10px solid black;
+    padding-top: 20px;
+  }
+  
+  .logic {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #223d1ebe;
+    border-radius: 20px;
+    background-color: #3b634d;
+    background-image: linear-gradient(45deg, #3b634d 0%, #FFFB7D 100%);
+  }
+  
+  .algoritm {
+    text-align: center;
+    color: #89A086;
+    font-size: 40px;
+    border-top: 10px solid black;
+    padding-top: 20px;
+  }
+  
+  .for,
+  .dowhile,
+  .while {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #223d1ebe;
+    border-radius: 20px;
+    background-color: #3b634d;
+    background-image: linear-gradient(45deg, #3b634d 0%, #FFFB7D 100%);
+  }
+
+  .JSPfor {
+    height: 300px;
+    width: 600px;
+  }
+  
+  .JSPdowhile {
+    height: 200px;
+    width: 400px;
+  }
+  
+  .JSPwhile {
+    height: 300px;
+    width: 500px;
+  }
+
+  .function {
+    text-align: center;
+    color: #89A086;
+    font-size: 40px;
+    border-top: 10px solid black;
+    padding-top: 20px;
+  }
+  
+  .callfunction,
+  .arrowfunction,
+  .justFunction,
+  .importExport {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #223d1ebe;
+    border-radius: 20px;
+    background-color: #3b634d;
+    background-image: linear-gradient(45deg, #3b634d 0%, #FFFB7D 100%);
+  }
+  
+  .justfunction2 {
+    height: 131px;
+  }
+
+  footer {
+    background-color: #3b634d;
+    background-image: linear-gradient(45deg, #3b634d 0%, #FFFB7D 100%);
+    border: 2px solid #223d1ebe;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .HexCool {
+    color: #3b634d;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-text {
+    color:#40543d;
+    font-size: 5px;
+  }
+
+  .logo_footer {
+    position: relative; 
+    width: 25px;
+    height: 25px;
+  }
