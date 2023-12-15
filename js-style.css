@@ -20,3 +20,22 @@ body{
     position: relative;
     left: 870px;
 }
+
+.MainPage .pagelink {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.head{
+    border-bottom: solid 3px #223D1E;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
