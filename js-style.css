@@ -2,4 +2,13 @@
     font-family: Roboto-Regular, sans-serif;
     src: url('Fonts/Roboto-Regular.ttf')
   }
-  
+
+body{
+    background-color: #ADBD9E;
+    font-family: Roboto-Regular, sans-serif;
+    padding: 50px;
+}
+
+.MainPage{
+    
+}
